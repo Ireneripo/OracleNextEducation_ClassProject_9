@@ -13,6 +13,16 @@ const createTask = (evento) => {
   task.classList.add('card');
   input.value = '';
   //backticks
+  const content = `<div>
+      <i class="far fa-check-square icon"></i>
+      <span class="task">${value}</span>
+    </div>
+    <i class="fas fa-trash-alt trashIcon icon"></i>`;
+
+  task.innerHTML = content;
+
+  list.appendChild(task);
+
   const taskContent = document.createElement('div');
 
   const titleTask = document.createElement('span');
@@ -24,7 +34,6 @@ const createTask = (evento) => {
 
   task.appendChild(taskContent);
   task.appendChild(deleteIcon());
-  list.appendChild(task);
 };
 
 //Arrow functions o funciones anonimas
