@@ -58,19 +58,11 @@ export const createTask = ({ value, dateFormat, complete, id }) => {
   taskContent.appendChild(check);
   taskContent.appendChild(titleTask);
 
-<<<<<<< HEAD
-    const dateElement = document.createElement('span');
-    dateElement.innerHTML = dateFormat;
-
-  task.appendChild(taskContent);
-    task.appendChild(dateElement);
-=======
   const dateElement = document.createElement('span');
   dateElement.innerHTML = dateFormat;
 
   task.appendChild(taskContent);
   task.appendChild(dateElement);
->>>>>>> clase03
   task.appendChild(deleteIcon(id));
 
   return task;
