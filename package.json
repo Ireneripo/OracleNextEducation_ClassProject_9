@@ -1,0 +1,20 @@
+{
+  "name": "1821-manipulando-dom-con",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ireneripo/OracleNextEducation_ClassProject_9.git"
+  },
+  "author": "Irene Riportella",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Ireneripo/OracleNextEducation_ClassProject_9/issues"
+  },
+  "homepage": "https://github.com/Ireneripo/OracleNextEducation_ClassProject_9#readme"
+}
